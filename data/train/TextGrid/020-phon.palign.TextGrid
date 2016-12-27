@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 3.3622
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "PhonAlign"
+        xmin = 0.0
+        xmax = 3.3622
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.475
+            text = "#"
+        intervals [2]:
+            xmin = 0.475
+            xmax = 0.695
+            text = "z"
+        intervals [3]:
+            xmin = 0.695
+            xmax = 0.915
+            text = "I"
+        intervals [4]:
+            xmin = 0.915
+            xmax = 1.135
+            text = "r"
+        intervals [5]:
+            xmin = 1.135
+            xmax = 1.355
+            text = "@U"
+        intervals [6]:
+            xmin = 1.355
+            xmax = 1.585
+            text = "t"
+        intervals [7]:
+            xmin = 1.585
+            xmax = 1.805
+            text = "u"
+        intervals [8]:
+            xmin = 1.805
+            xmax = 2.025
+            text = "z"
+        intervals [9]:
+            xmin = 2.025
+            xmax = 2.245
+            text = "I"
+        intervals [10]:
+            xmin = 2.245
+            xmax = 2.465
+            text = "r"
+        intervals [11]:
+            xmin = 2.465
+            xmax = 2.695
+            text = "@U"
+        intervals [12]:
+            xmin = 2.695
+            xmax = 3.3622
+            text = "#"
+    item [2]:
+        class = "IntervalTier"
+        name = "PhnTokAlign"
+        xmin = 0.0
+        xmax = 3.3622
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.475
+            text = "#"
+        intervals [2]:
+            xmin = 0.475
+            xmax = 1.355
+            text = "z.I.r.@U"
+        intervals [3]:
+            xmin = 1.355
+            xmax = 1.805
+            text = "t.u"
+        intervals [4]:
+            xmin = 1.805
+            xmax = 2.695
+            text = "z.I.r.@U"
+        intervals [5]:
+            xmin = 2.695
+            xmax = 3.3622
+            text = "#"
+    item [3]:
+        class = "IntervalTier"
+        name = "TokensAlign"
+        xmin = 0.0
+        xmax = 3.3622
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.475
+            text = "#"
+        intervals [2]:
+            xmin = 0.475
+            xmax = 1.355
+            text = "zero"
+        intervals [3]:
+            xmin = 1.355
+            xmax = 1.805
+            text = "two"
+        intervals [4]:
+            xmin = 1.805
+            xmax = 2.695
+            text = "zero"
+        intervals [5]:
+            xmin = 2.695
+            xmax = 3.3622
+            text = "#"

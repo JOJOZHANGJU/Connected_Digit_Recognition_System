@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.6206
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "PhonAlign"
+        xmin = 0.0
+        xmax = 2.6206
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.73
+            text = "#"
+        intervals [2]:
+            xmin = 0.73
+            xmax = 1.11
+            text = "eI"
+        intervals [3]:
+            xmin = 1.11
+            xmax = 1.495
+            text = "t"
+        intervals [4]:
+            xmin = 1.495
+            xmax = 2.6206
+            text = "#"
+    item [2]:
+        class = "IntervalTier"
+        name = "PhnTokAlign"
+        xmin = 0.0
+        xmax = 2.6206
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.73
+            text = "#"
+        intervals [2]:
+            xmin = 0.73
+            xmax = 1.495
+            text = "eI.t"
+        intervals [3]:
+            xmin = 1.495
+            xmax = 2.6206
+            text = "#"
+    item [3]:
+        class = "IntervalTier"
+        name = "TokensAlign"
+        xmin = 0.0
+        xmax = 2.6206
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.73
+            text = "#"
+        intervals [2]:
+            xmin = 0.73
+            xmax = 1.495
+            text = "eight"
+        intervals [3]:
+            xmin = 1.495
+            xmax = 2.6206
+            text = "#"

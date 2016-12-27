@@ -1,0 +1,178 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 3.8194
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "PhonAlign"
+        xmin = 0.0
+        xmax = 3.8194
+        intervals: size = 22
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.865
+            text = "#"
+        intervals [2]:
+            xmin = 0.865
+            xmax = 0.975
+            text = "f"
+        intervals [3]:
+            xmin = 0.975
+            xmax = 1.085
+            text = "aI"
+        intervals [4]:
+            xmin = 1.085
+            xmax = 1.205
+            text = "v"
+        intervals [5]:
+            xmin = 1.205
+            xmax = 1.315
+            text = "s"
+        intervals [6]:
+            xmin = 1.315
+            xmax = 1.425
+            text = "E"
+        intervals [7]:
+            xmin = 1.425
+            xmax = 1.545
+            text = "v"
+        intervals [8]:
+            xmin = 1.545
+            xmax = 1.655
+            text = "@"
+        intervals [9]:
+            xmin = 1.655
+            xmax = 1.765
+            text = "n"
+        intervals [10]:
+            xmin = 1.765
+            xmax = 1.885
+            text = "w"
+        intervals [11]:
+            xmin = 1.885
+            xmax = 1.995
+            text = "V"
+        intervals [12]:
+            xmin = 1.995
+            xmax = 2.115
+            text = "n"
+        intervals [13]:
+            xmin = 2.115
+            xmax = 2.225
+            text = "f"
+        intervals [14]:
+            xmin = 2.225
+            xmax = 2.335
+            text = "O:"
+        intervals [15]:
+            xmin = 2.335
+            xmax = 2.455
+            text = "r"
+        intervals [16]:
+            xmin = 2.455
+            xmax = 2.565
+            text = "T"
+        intervals [17]:
+            xmin = 2.565
+            xmax = 2.675
+            text = "r"
+        intervals [18]:
+            xmin = 2.675
+            xmax = 2.795
+            text = "i:"
+        intervals [19]:
+            xmin = 2.795
+            xmax = 2.905
+            text = "f"
+        intervals [20]:
+            xmin = 2.905
+            xmax = 3.025
+            text = "O:"
+        intervals [21]:
+            xmin = 3.025
+            xmax = 3.14
+            text = "r"
+        intervals [22]:
+            xmin = 3.14
+            xmax = 3.8194
+            text = "#"
+    item [2]:
+        class = "IntervalTier"
+        name = "PhnTokAlign"
+        xmin = 0.0
+        xmax = 3.8194
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.865
+            text = "#"
+        intervals [2]:
+            xmin = 0.865
+            xmax = 1.205
+            text = "f.aI.v"
+        intervals [3]:
+            xmin = 1.205
+            xmax = 1.765
+            text = "s.E.v.@.n"
+        intervals [4]:
+            xmin = 1.765
+            xmax = 2.115
+            text = "w.V.n"
+        intervals [5]:
+            xmin = 2.115
+            xmax = 2.455
+            text = "f.O:.r"
+        intervals [6]:
+            xmin = 2.455
+            xmax = 2.795
+            text = "T.r.i:"
+        intervals [7]:
+            xmin = 2.795
+            xmax = 3.14
+            text = "f.O:.r"
+        intervals [8]:
+            xmin = 3.14
+            xmax = 3.8194
+            text = "#"
+    item [3]:
+        class = "IntervalTier"
+        name = "TokensAlign"
+        xmin = 0.0
+        xmax = 3.8194
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.865
+            text = "#"
+        intervals [2]:
+            xmin = 0.865
+            xmax = 1.205
+            text = "five"
+        intervals [3]:
+            xmin = 1.205
+            xmax = 1.765
+            text = "seven"
+        intervals [4]:
+            xmin = 1.765
+            xmax = 2.115
+            text = "one"
+        intervals [5]:
+            xmin = 2.115
+            xmax = 2.455
+            text = "four"
+        intervals [6]:
+            xmin = 2.455
+            xmax = 2.795
+            text = "three"
+        intervals [7]:
+            xmin = 2.795
+            xmax = 3.14
+            text = "four"
+        intervals [8]:
+            xmin = 3.14
+            xmax = 3.8194
+            text = "#"

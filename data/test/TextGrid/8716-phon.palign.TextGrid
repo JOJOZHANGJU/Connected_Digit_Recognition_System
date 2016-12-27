@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 3.2301
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "PhonAlign"
+        xmin = 0.0
+        xmax = 3.2301
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.775
+            text = "#"
+        intervals [2]:
+            xmin = 0.775
+            xmax = 0.905
+            text = "eI"
+        intervals [3]:
+            xmin = 0.905
+            xmax = 1.045
+            text = "t"
+        intervals [4]:
+            xmin = 1.045
+            xmax = 1.175
+            text = "s"
+        intervals [5]:
+            xmin = 1.175
+            xmax = 1.315
+            text = "E"
+        intervals [6]:
+            xmin = 1.315
+            xmax = 1.455
+            text = "v"
+        intervals [7]:
+            xmin = 1.455
+            xmax = 1.585
+            text = "@"
+        intervals [8]:
+            xmin = 1.585
+            xmax = 1.725
+            text = "n"
+        intervals [9]:
+            xmin = 1.725
+            xmax = 1.855
+            text = "w"
+        intervals [10]:
+            xmin = 1.855
+            xmax = 1.995
+            text = "V"
+        intervals [11]:
+            xmin = 1.995
+            xmax = 2.135
+            text = "n"
+        intervals [12]:
+            xmin = 2.135
+            xmax = 2.265
+            text = "s"
+        intervals [13]:
+            xmin = 2.265
+            xmax = 2.405
+            text = "I"
+        intervals [14]:
+            xmin = 2.405
+            xmax = 2.535
+            text = "k"
+        intervals [15]:
+            xmin = 2.535
+            xmax = 2.68
+            text = "s"
+        intervals [16]:
+            xmin = 2.68
+            xmax = 3.2301
+            text = "#"
+    item [2]:
+        class = "IntervalTier"
+        name = "PhnTokAlign"
+        xmin = 0.0
+        xmax = 3.2301
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.775
+            text = "#"
+        intervals [2]:
+            xmin = 0.775
+            xmax = 1.045
+            text = "eI.t"
+        intervals [3]:
+            xmin = 1.045
+            xmax = 1.725
+            text = "s.E.v.@.n"
+        intervals [4]:
+            xmin = 1.725
+            xmax = 2.135
+            text = "w.V.n"
+        intervals [5]:
+            xmin = 2.135
+            xmax = 2.68
+            text = "s.I.k.s"
+        intervals [6]:
+            xmin = 2.68
+            xmax = 3.2301
+            text = "#"
+    item [3]:
+        class = "IntervalTier"
+        name = "TokensAlign"
+        xmin = 0.0
+        xmax = 3.2301
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.775
+            text = "#"
+        intervals [2]:
+            xmin = 0.775
+            xmax = 1.045
+            text = "eight"
+        intervals [3]:
+            xmin = 1.045
+            xmax = 1.725
+            text = "seven"
+        intervals [4]:
+            xmin = 1.725
+            xmax = 2.135
+            text = "one"
+        intervals [5]:
+            xmin = 2.135
+            xmax = 2.68
+            text = "six"
+        intervals [6]:
+            xmin = 2.68
+            xmax = 3.2301
+            text = "#"

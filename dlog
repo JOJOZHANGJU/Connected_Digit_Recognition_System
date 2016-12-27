@@ -1,0 +1,38 @@
+Missing Words
+-------------
+SENT-END
+SENT-START
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+        beep    237211         10     256476         11
+       dict1        10         10         11         11
+
+12 words required, 2 missing
+
+New Phone Usage Counts
+---------------------
+  1. ey    :     1
+  2. t     :     2
+  3. sp    :    11
+  4. f     :     3
+  5. ay    :     2
+  6. v     :     2
+  7. ao    :     2
+  8. r     :     3
+  9. n     :     4
+ 10. w     :     1
+ 11. ah    :     1
+ 12. s     :     3
+ 13. eh    :     1
+ 14. ih    :     1
+ 15. k     :     1
+ 16. th    :     1
+ 17. iy    :     1
+ 18. uw    :     1
+ 19. z     :     1
+ 20. ia    :     1
+ 21. ow    :     1
+
+Dictionary ./dict/dict1 created

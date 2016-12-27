@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 2.326
+tiers? <exists>
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "PhonAlign"
+        xmin = 0.0
+        xmax = 2.326
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.475
+            text = "#"
+        intervals [2]:
+            xmin = 0.475
+            xmax = 0.585
+            text = "n"
+        intervals [3]:
+            xmin = 0.585
+            xmax = 0.705
+            text = "aI"
+        intervals [4]:
+            xmin = 0.705
+            xmax = 0.815
+            text = "n"
+        intervals [5]:
+            xmin = 0.815
+            xmax = 0.935
+            text = "s"
+        intervals [6]:
+            xmin = 0.935
+            xmax = 1.055
+            text = "E"
+        intervals [7]:
+            xmin = 1.055
+            xmax = 1.165
+            text = "v"
+        intervals [8]:
+            xmin = 1.165
+            xmax = 1.285
+            text = "@"
+        intervals [9]:
+            xmin = 1.285
+            xmax = 1.405
+            text = "n"
+        intervals [10]:
+            xmin = 1.405
+            xmax = 2.326
+            text = "#"
+    item [2]:
+        class = "IntervalTier"
+        name = "PhnTokAlign"
+        xmin = 0.0
+        xmax = 2.326
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.475
+            text = "#"
+        intervals [2]:
+            xmin = 0.475
+            xmax = 0.815
+            text = "n.aI.n"
+        intervals [3]:
+            xmin = 0.815
+            xmax = 1.405
+            text = "s.E.v.@.n"
+        intervals [4]:
+            xmin = 1.405
+            xmax = 2.326
+            text = "#"
+    item [3]:
+        class = "IntervalTier"
+        name = "TokensAlign"
+        xmin = 0.0
+        xmax = 2.326
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.475
+            text = "#"
+        intervals [2]:
+            xmin = 0.475
+            xmax = 0.815
+            text = "nine"
+        intervals [3]:
+            xmin = 0.815
+            xmax = 1.405
+            text = "seven"
+        intervals [4]:
+            xmin = 1.405
+            xmax = 2.326
+            text = "#"

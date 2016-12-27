@@ -1,0 +1,350 @@
+QS 'R_NonBoundary' { "*+*" }
+QS 'R_Stop' { "*+g","*+kd","*+k","*+dd","*+d","*+td","*+t","*+b","*+pd","*+p" }
+QS 'R_Nasal' { "*+ng","*+en","*+n","*+m" }
+QS 'R_Fricative' { "*+dh","*+th","*+jh","*+ch","*+v","*+f","*+z","*+sh","*+s" }
+QS 'R_Liquid' { "*+hh","*+y","*+w","*+r","*+el","*+l" }
+QS 'R_Vowel' { "*+ow","*+iy","*+ey","*+oy","*+ay","*+er","*+ax","*+ah","*+uw","*+aa","*+ao","*+ih","*+eh" }
+QS 'R_C-Front' { "*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
+QS 'R_C-Central' { "*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
+QS 'R_C-Back' { "*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
+QS 'R_V-Front' { "*+eh","*+ih","*+iy" }
+QS 'R_V-Central' { "*+ao","*+er","*+aa","*+eh" }
+QS 'R_V-Back' { "*+uh","*+ax","*+aa","*+uw" }
+QS 'R_Front' { "*+eh","*+ih","*+iy","*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
+QS 'R_Central' { "*+ao","*+er","*+aa","*+eh","*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
+QS 'R_Back' { "*+uh","*+ax","*+uw","*+aa","*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
+QS 'R_Fortis' { "*+ch","*+sh","*+s","*+th","*+f","*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Lenis' { "*+jh","*+sh","*+z","*+dh","*+v","*+g","*+dd","*+d","*+b" }
+QS 'R_UnFortLenis' { "*+w","*+y","*+r","*+el","*+l","*+hh","*+ng","*+en","*+n","*+m" }
+QS 'R_Coronal' { "*+r","*+el","*+l","*+jh","*+ch","*+sh","*+z","*+s","*+dh","*+th","*+en","*+n","*+dd","*+d","*+td","*+t" }
+QS 'R_NonCoronal' { "*+w","*+y","*+hh","*+v","*+f","*+ng","*+g","*+kd","*+k","*+m","*+b","*+pd","*+p" }
+QS 'R_Anterior' { "*+w","*+el","*+l","*+z","*+s","*+dh","*+th","*+v","*+f","*+en","*+n","*+dd","*+d","*+td","*+t","*+m","*+b","*+pd","*+p" }
+QS 'R_NonAnterior' { "*+y","*+r","*+jh","*+ch","*+hh","*+sh","*+ng","*+g","*+kd","*+k" }
+QS 'R_Continuent' { "*+w","*+y","*+r","*+el","*+l","*+hh","*+sh","*+z","*+s","*+dh","*+th","*+v","*+f","*+ng","*+en","*+n","*+m" }
+QS 'R_NonContinuent' { "*+jh","*+ch","*+g","*+kd","*+k","*+dd","*+d","*+td","*+t","*+b","*+pd","*+p" }
+QS 'R_Strident' { "*+jh","*+ch","*+sh","*+z","*+s" }
+QS 'R_NonStrident' { "*+hh","*+dh","*+th","*+v","*+f" }
+QS 'R_UnStrident' { "*+w","*+y","*+r","*+el","*+l","*+ng","*+g","*+kd","*+k","*+en","*+n","*+dd","*+d","*+td","*+t","*+m","*+b","*+pd","*+p" }
+QS 'R_Glide' { "*+w","*+y","*+r","*+el","*+l","*+hh" }
+QS 'R_Unvoiced-Cons' { "*+ch","*+hh","*+th","*+f","*+sh","*+s","*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Voiced-Cons' { "*+z","*+w","*+v","*+r","*+ng","*+en","*+n","*+m","*+el","*+l","*+y","*+g","*+dh","*+dd","*+d","*+b","*+jh" }
+QS 'R_Unvoiced-All' { "*+sil","*+ch","*+hh","*+th","*+f","*+sh","*+s","*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Long' { "*+el","*+l","*+m","*+en","*+uw","*+ao","*+ow","*+aa","*+iy" }
+QS 'R_Short' { "*+uh","*+ax","*+ah","*+oy","*+ay","*+ih","*+aa","*+ey","*+eh" }
+QS 'R_Dipthong' { "*+el","*+l","*+m","*+en","*+er","*+aa","*+oy","*+ay","*+ey" }
+QS 'R_Fronting' { "*+oy","*+ey","*+ay" }
+QS 'R_High' { "*+iy","*+ax","*+aa","*+uw","*+ih" }
+QS 'R_Medium' { "*+el","*+l","*+m","*+en","*+eh","*+ax","*+aa","*+er","*+ey" }
+QS 'R_Low' { "*+oy","*+ao","*+aw","*+aa","*+ay","*+eh" }
+QS 'R_Rounded' { "*+w","*+oy","*+ax","*+aa","*+uw","*+ao" }
+QS 'R_Unrounded' { "*+y","*+r","*+el","*+l","*+hh","*+m","*+en","*+ax","*+ah","*+aw","*+iy","*+ey","*+ay","*+er","*+aa","*+ih","*+eh" }
+QS 'R_NonAffricate' { "*+dh","*+th","*+v","*+f","*+z","*+sh","*+s" }
+QS 'R_IVowel' { "*+iy","*+ih" }
+QS 'R_EVowel' { "*+ey","*+eh" }
+QS 'R_AVowel' { "*+aw","*+ay","*+er","*+aa","*+eh" }
+QS 'R_OVowel' { "*+aa","*+oy","*+ao" }
+QS 'R_UVowel' { "*+uw","*+el","*+l","*+m","*+en","*+ax","*+aa" }
+QS 'R_Unvoiced-Stop' { "*+kd","*+k","*+td","*+t","*+pd","*+p" }
+QS 'R_Central-Stop' { "*+dd","*+d","*+td","*+t" }
+QS 'R_Back-Stop' { "*+g","*+kd","*+k" }
+QS 'R_Voiced-Fric' { "*+v","*+ch","*+dh","*+sh","*+z" }
+QS 'R_Unvoiced-Fric' { "*+ch","*+f","*+th","*+sh","*+s" }
+QS 'R_Front-Fric' { "*+v","*+f" }
+QS 'R_Central-Fric' { "*+dh","*+th","*+z","*+s" }
+QS 'R_ah' { "*+ah" }
+QS 'R_ao' { "*+ao" }
+QS 'R_ay' { "*+ay" }
+QS 'R_eh' { "*+eh" }
+QS 'R_ih' { "*+ih" }
+QS 'R_iy' { "*+iy" }
+QS 'R_k' { "*+k" }
+QS 'R_n' { "*+n" }
+QS 'R_ow' { "*+ow" }
+QS 'R_r' { "*+r" }
+QS 'R_s' { "*+s" }
+QS 'R_t' { "*+t" }
+QS 'R_uw' { "*+uw" }
+QS 'R_v' { "*+v" }
+QS 'L_NonBoundary' { "*-*" }
+QS 'L_Stop' { "g-*","kd-*","k-*","dd-*","d-*","td-*","t-*","b-*","pd-*","p-*" }
+QS 'L_Nasal' { "ng-*","en-*","n-*","m-*" }
+QS 'L_Fricative' { "dh-*","th-*","jh-*","ch-*","v-*","f-*","z-*","sh-*","s-*" }
+QS 'L_Liquid' { "hh-*","y-*","w-*","r-*","el-*","l-*" }
+QS 'L_Vowel' { "ow-*","iy-*","ey-*","oy-*","ay-*","er-*","ax-*","ah-*","uw-*","aa-*","ao-*","ih-*","eh-*" }
+QS 'L_C-Front' { "w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
+QS 'L_C-Central' { "r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
+QS 'L_C-Back' { "hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
+QS 'L_V-Front' { "eh-*","ih-*","iy-*" }
+QS 'L_V-Central' { "ao-*","er-*","aa-*","eh-*" }
+QS 'L_Front' { "eh-*","ih-*","iy-*","w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
+QS 'L_Central' { "ao-*","er-*","aa-*","eh-*","r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
+QS 'L_Back' { "uh-*","ax-*","uw-*","aa-*","hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
+QS 'L_Fortis' { "ch-*","sh-*","s-*","th-*","f-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Lenis' { "jh-*","sh-*","z-*","dh-*","v-*","g-*","dd-*","d-*","b-*" }
+QS 'L_UnFortLenis' { "w-*","y-*","r-*","el-*","l-*","hh-*","ng-*","en-*","n-*","m-*" }
+QS 'L_Coronal' { "r-*","el-*","l-*","jh-*","ch-*","sh-*","z-*","s-*","dh-*","th-*","en-*","n-*","dd-*","d-*","td-*","t-*" }
+QS 'L_NonCoronal' { "w-*","y-*","hh-*","v-*","f-*","ng-*","g-*","kd-*","k-*","m-*","b-*","pd-*","p-*" }
+QS 'L_Anterior' { "w-*","el-*","l-*","z-*","s-*","dh-*","th-*","v-*","f-*","en-*","n-*","dd-*","d-*","td-*","t-*","m-*","b-*","pd-*","p-*" }
+QS 'L_NonAnterior' { "y-*","r-*","jh-*","ch-*","hh-*","sh-*","ng-*","g-*","kd-*","k-*" }
+QS 'L_Continuent' { "w-*","y-*","r-*","el-*","l-*","hh-*","sh-*","z-*","s-*","dh-*","th-*","v-*","f-*","ng-*","en-*","n-*","m-*" }
+QS 'L_NonContinuent' { "jh-*","ch-*","g-*","kd-*","k-*","dd-*","d-*","td-*","t-*","b-*","pd-*","p-*" }
+QS 'L_Strident' { "jh-*","ch-*","sh-*","z-*","s-*" }
+QS 'L_NonStrident' { "hh-*","dh-*","th-*","v-*","f-*" }
+QS 'L_UnStrident' { "w-*","y-*","r-*","el-*","l-*","ng-*","g-*","kd-*","k-*","en-*","n-*","dd-*","d-*","td-*","t-*","m-*","b-*","pd-*","p-*" }
+QS 'L_Glide' { "w-*","y-*","r-*","el-*","l-*","hh-*" }
+QS 'L_Unvoiced-Cons' { "ch-*","hh-*","th-*","f-*","sh-*","s-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Voiced-Cons' { "z-*","w-*","v-*","r-*","ng-*","en-*","n-*","m-*","el-*","l-*","y-*","g-*","dh-*","dd-*","d-*","b-*","jh-*" }
+QS 'L_Unvoiced-All' { "sil-*","ch-*","hh-*","th-*","f-*","sh-*","s-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Long' { "el-*","l-*","m-*","en-*","uw-*","ao-*","ow-*","aa-*","iy-*" }
+QS 'L_Short' { "uh-*","ax-*","ah-*","oy-*","ay-*","ih-*","aa-*","ey-*","eh-*" }
+QS 'L_Dipthong' { "el-*","l-*","m-*","en-*","er-*","aa-*","oy-*","ay-*","ey-*" }
+QS 'L_Front-Start' { "er-*","aa-*","ey-*" }
+QS 'L_Fronting' { "oy-*","ey-*","ay-*" }
+QS 'L_High' { "iy-*","ax-*","aa-*","uw-*","ih-*" }
+QS 'L_Medium' { "el-*","l-*","m-*","en-*","eh-*","ax-*","aa-*","er-*","ey-*" }
+QS 'L_Low' { "oy-*","ao-*","aw-*","aa-*","ay-*","eh-*" }
+QS 'L_Rounded' { "w-*","oy-*","ax-*","aa-*","uw-*","ao-*" }
+QS 'L_Unrounded' { "y-*","r-*","el-*","l-*","hh-*","m-*","en-*","ax-*","ah-*","aw-*","iy-*","ey-*","ay-*","er-*","aa-*","ih-*","eh-*" }
+QS 'L_NonAffricate' { "dh-*","th-*","v-*","f-*","z-*","sh-*","s-*" }
+QS 'L_IVowel' { "iy-*","ih-*" }
+QS 'L_EVowel' { "ey-*","eh-*" }
+QS 'L_AVowel' { "aw-*","ay-*","er-*","aa-*","eh-*" }
+QS 'L_OVowel' { "aa-*","oy-*","ao-*" }
+QS 'L_Unvoiced-Stop' { "kd-*","k-*","td-*","t-*","pd-*","p-*" }
+QS 'L_Central-Stop' { "dd-*","d-*","td-*","t-*" }
+QS 'L_Back-Stop' { "g-*","kd-*","k-*" }
+QS 'L_Voiced-Fric' { "v-*","ch-*","dh-*","sh-*","z-*" }
+QS 'L_Unvoiced-Fric' { "ch-*","f-*","th-*","sh-*","s-*" }
+QS 'L_Front-Fric' { "v-*","f-*" }
+QS 'L_Central-Fric' { "dh-*","th-*","z-*","s-*" }
+QS 'L_ah' { "ah-*" }
+QS 'L_ao' { "ao-*" }
+QS 'L_ay' { "ay-*" }
+QS 'L_eh' { "eh-*" }
+QS 'L_ey' { "ey-*" }
+QS 'L_f' { "f-*" }
+QS 'L_ih' { "ih-*" }
+QS 'L_k' { "k-*" }
+QS 'L_n' { "n-*" }
+QS 'L_r' { "r-*" }
+QS 'L_s' { "s-*" }
+QS 'L_t' { "t-*" }
+QS 'L_th' { "th-*" }
+QS 'L_v' { "v-*" }
+QS 'L_w' { "w-*" }
+QS 'L_z' { "z-*" }
+
+ey[2]
+   "ey_s21"
+
+t[2]
+   "t_s21"
+
+f[2]
+   "f_s21"
+
+ay[2]
+{
+   0                'R_Nasal'   "ay_s21"   "ay_s22" 
+}
+
+v[2]
+   "v_s21"
+
+ao[2]
+   "ao_s21"
+
+r[2]
+{
+   0              'R_V-Front'    "r_s21"    "r_s22" 
+}
+
+n[2]
+{
+   0             'L_Dipthong'      -1       "n_s23" 
+  -1            'L_Fricative'    "n_s21"    "n_s22" 
+}
+
+w[2]
+   "w_s21"
+
+ah[2]
+   "ah_s21"
+
+sil[2]
+   "sil_s21"
+
+s[2]
+{
+   0          'R_NonBoundary'    "s_s21"    "s_s22" 
+}
+
+eh[2]
+   "eh_s21"
+
+ih[2]
+   "ih_s21"
+
+k[2]
+   "k_s21"
+
+th[2]
+   "th_s21"
+
+iy[2]
+   "iy_s21"
+
+uw[2]
+   "uw_s21"
+
+z[2]
+   "z_s21"
+
+ia[2]
+   "ia_s21"
+
+ow[2]
+   "ow_s21"
+
+ey[3]
+   "ey_s31"
+
+t[3]
+{
+   0          'R_NonBoundary'    "t_s31"    "t_s32" 
+}
+
+f[3]
+   "f_s31"
+
+ay[3]
+   "ay_s31"
+
+v[3]
+   "v_s31"
+
+ao[3]
+   "ao_s31"
+
+r[3]
+   "r_s31"
+
+n[3]
+{
+   0            'L_Fricative'      -1       "n_s34" 
+  -1                   'L_ah'      -2       "n_s33" 
+  -2          'R_NonBoundary'    "n_s31"    "n_s32" 
+}
+
+w[3]
+   "w_s31"
+
+ah[3]
+   "ah_s31"
+
+sil[3]
+   "sil_s31"
+
+s[3]
+   "s_s31"
+
+eh[3]
+   "eh_s31"
+
+ih[3]
+   "ih_s31"
+
+k[3]
+   "k_s31"
+
+th[3]
+   "th_s31"
+
+iy[3]
+   "iy_s31"
+
+uw[3]
+   "uw_s31"
+
+z[3]
+   "z_s31"
+
+ia[3]
+   "ia_s31"
+
+ow[3]
+   "ow_s31"
+
+ey[4]
+   "ey_s41"
+
+t[4]
+{
+   0          'R_NonBoundary'    "t_s41"    "t_s42" 
+}
+
+f[4]
+   "f_s41"
+
+ay[4]
+   "ay_s41"
+
+v[4]
+   "v_s41"
+
+ao[4]
+   "ao_s41"
+
+r[4]
+{
+   0              'R_V-Front'    "r_s41"    "r_s42" 
+}
+
+n[4]
+{
+   0             'L_Dipthong'      -1       "n_s43" 
+  -1                'L_Vowel'    "n_s41"    "n_s42" 
+}
+
+w[4]
+   "w_s41"
+
+ah[4]
+   "ah_s41"
+
+sil[4]
+   "sil_s41"
+
+s[4]
+{
+   0          'R_NonBoundary'    "s_s41"      -1    
+  -1            'R_V-Central'    "s_s42"    "s_s43" 
+}
+
+eh[4]
+   "eh_s41"
+
+ih[4]
+   "ih_s41"
+
+k[4]
+   "k_s41"
+
+th[4]
+   "th_s41"
+
+iy[4]
+   "iy_s41"
+
+uw[4]
+   "uw_s41"
+
+z[4]
+   "z_s41"
+
+ia[4]
+   "ia_s41"
+
+ow[4]
+   "ow_s41"
+
